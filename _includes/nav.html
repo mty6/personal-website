@@ -1,0 +1,8 @@
+<nav>
+    <ul class="nav">
+        <li class="{%if page.url == '/'%}current{% endif %}"><a href="{{site.baseurl}}/index.html" >Home</a></li>
+        <li  class="{%if page.url == '/about.html'%}current{% endif %}"><a href="{{site.baseurl}}/about.html">About</a></li>
+        <li  class="{% if page.url == '/hobbies.html'%}current{% endif %}"><a href="{{site.baseurl}}/hobbies.html">Hobbies</a></li>
+        <li  class="{% if page.url == '/contact.html'%}current{% endif %}"><a href="{{site.baseurl}}/contact.html">Contact</a></li>
+    </ul>
+</nav>
